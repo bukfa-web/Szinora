@@ -3,12 +3,12 @@
 Created using JS Bin
 http://jsbin.com
 
-Copyright (c) 2020 by bukfa-web (http://jsbin.com/pilurab/19/edit)
+Copyright (c) 2020 by bukfa-web (http://jsbin.com/pilurab/26/edit)
 
 Released under the MIT license: http://jsbin.mit-license.org
 -->
 <meta name="robots" content="noindex">
-<html>
+<html><html lang = "HU">
 <head>
 <meta name="description" content="Színóra">
   <meta charset="utf-8">
@@ -37,7 +37,7 @@ html, body {
 h1 {
   
   font-size: 55px;
-  margin-top: -40;
+  margin-top: -40px;
   text-align: center;
   position: relative;
   top: 25%;
@@ -46,6 +46,17 @@ h1 {
   text-decoration: underline dotted blue;
   font-family: 'Amatic SC', cursive;
 }
+
+#footer-wrapper {
+  
+  margin-top: 640px;
+  text-align: center;
+  position: relative;
+  top: -125%;
+  color: yellow;
+
+}
+
 </style>
 </head>
 <body>
@@ -53,7 +64,16 @@ h1 {
  
 <div id="clock">12:13:14</div>
   
-<script id="jsbin-javascript">
+  <footer>
+    <div id="footer-wrapper">
+      <p><small>Készült Pécs © 2020 | Created by:  
+        <a href="https://bukfa-web.github.io/Zsugabubus/"
+    style="color:yellow"
+title="Zsugabubus">Zsugabubus</a></small></p>
+      
+    </div>
+  </footer>
+  <script id="jsbin-javascript">
 function colorClock(){
   var date = new Date();
 
